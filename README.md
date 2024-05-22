@@ -26,3 +26,15 @@ docker run hello-world
 ```
 docker rm hello-world
 ```
+# 2.
+Устанавоиваю NGINX
+```
+apt-get install nginx
+```
+Запускаю его в браузере с 80 порта
+```
+docker-run -p 80:80 nginx
+```
+```
+https://10.12.29.21:80
+```
